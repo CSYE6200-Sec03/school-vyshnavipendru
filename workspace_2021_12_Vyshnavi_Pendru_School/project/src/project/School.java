@@ -12,13 +12,6 @@ public class School {
 	List< Student> studentRoster = new ArrayList<>();
 	
 	
-	
-//	List< Student> studentRoster = new ArrayList<>();
-//	List< Student> anotherstudent= null;
-//	List< Person> anotherperson= studentRoster;
-//	if(anotherperson instanceof List< Student>) {
-//		anotherstudent=(List< Student>) anotherperson;
-//	}
 	public void addStudent() {
 		studentRoster.add(new Student(24, 14, "Ram Nath", "Kovind", 3.9));
 		studentRoster.add(new Student(29, 15, "Pranab", "Mukherjee", 3.1));
